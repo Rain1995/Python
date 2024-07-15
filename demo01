@@ -1,0 +1,17 @@
+stu_list = ['张三','李四','王五','李四']   #列表存储：名字_list = [变量]
+print(type(stu_list))
+
+seasons = ('春','夏','秋','冬','春')  #元组存储：名字 = （变量）
+print(seasons)
+print(type(seasons))
+
+teatchers = {'沙漠','北河','极光','半夏','半夏'}      #定义一个变量来存储，但是业务上来说不允许有重名老师，所以有集合存储# ：名字 = {变量}
+print(type(teatchers))                            #集合存储 ：名字 = {变量}
+print(teatchers)
+
+tearcher_info = {'name':'沙漠','age':18,'job':'test','height':177.5}    #定义一个变量来描述沙漠的各项信息，这些数据每一组都有对应关系，用字典来存储
+print(type(tearcher_info))         #字典存储：名字 = {变量}
+print(tearcher_info)
+
+var_name = 'ew34d'   #判断var_name是不是int类型，isinstance的意思是“判断类型”；isinstance()是一个内置函数，用于判断一个对象是否是一个已知的类型，类似type()
+print(isinstance(var_name,int))   #判断函数：  名字 = '变量'  print(instance(变量,int))
